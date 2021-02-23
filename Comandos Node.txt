@@ -1,0 +1,6 @@
+yarn init -y => cria o package.json, que seria um arquivo descritor de projeto, sem receber perguntas sobre qual versão do projeto que será inicializada, 
+                módulo principal, nome, etc (OBS: instalar yarn com comando npm i -g yarn)
+
+yarn add nomePacote => instala um pacote na pasta atual, como também será criada a pasta node_modules dentro dela.
+
+ts-node-dev é uma biblioteca que realiza tradução automática do código JavaScript em TypeScript no ambiente de desenvolvimento

@@ -10,5 +10,27 @@ Documentação sobre ORM para TypeScript: https://typeorm.io
 yarn typeorm migration:create -n NomeMigration => Gera uma migration com todo o histórico de configuração do banco de dados
 yarn typeorm migration:run => Executa todas as migrations que estiverem na aplicação
 yarn typeorm migration:revert => Executa somente a última migration que estiver na aplicação
+yarn test => inicia teste (seja unitário, de integração, E2E, etc)
 
 visualizando o banco SQLite: beekeperstudio.io
+
+
+
+Testes automatizados
+
+1- Testes unitários => Testes que irão realizar teste a alguma funcionalidade, serviço ou uma função específica na aplicação
+
+2- Teste de integração => Será testado uma funcionalidade completa na aplicação
+
+=> request -> routes -> controller -> repository
+<- repository <- controller <- response <=
+
+3- Ponta a ponta (End to End) => Testar toda a ação do usuário numa aplicação (eventos), comuns em aplicações front-end
+
+Ferramenta de teste de integração: supertest da NPM
+
+
+Dicas de execução de comandos para definir variáveis de ambiente: instalar cross-env https://www.npmjs.com/package/cross-env
+
+
+Nodemailer: biblioteca de envio de e-mails do node. Deve ser feito em conjunto com SMTP da Ethereal

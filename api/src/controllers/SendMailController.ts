@@ -36,11 +36,14 @@ class SendMailController{
 
         const npsPath = resolve(__dirname, '..', 'views', 'emails', 'npsmail.hbs')
 
+        //SELECT * FROM surveys_users WHERE user_id = :user_id AND value IS NULL
         const surveyUserAlreadyExists = await surveysUserRepository.findOne({
             where: [{user_id: user.id}, {value: null}],
             relations: ['user', 'survey']
         })
 
+        /*Enviando e-mail apenas uma vez da mesma pesquisa e para o mesmo usuário, 
+          evitando de ficar inserindo como se fossem novos registros na tabela surveys_users*/
         if(surveyUserAlreadyExists){
             await SendMailService.execute(email, survey.title, variables, npsPath)
             return response.json(surveyUserAlreadyExists)

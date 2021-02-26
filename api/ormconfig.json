@@ -6,5 +6,5 @@
     "logging": true,
     "cli": {
         "migrationsDir": "./src/database/migrations"
-    }
+    }    
 }

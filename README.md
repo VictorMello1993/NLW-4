@@ -76,6 +76,9 @@ npm install
 
 Pronto, a aplicação está pronta para ser utilizada!
 
+
+<h2>:triangular_flag_on_post:Executando a API</h2>
+
 ---
 
 ##  Melhorias a implementar

@@ -81,4 +81,4 @@ yarn dev
 
 ---
 ## Versões do README
-<img src="/public/images/eua.png" alt="Bandeira dos Estados Unidos" width="22px"/> <a href="/README.md">Inglês</a> | <img src="/public/images/br.jpg" alt="Bandeira do Brasil" width="22px"/> <a href="/README-PTBR.md">Português</a>
+<a href="/README-ENUS.md">Inglês</a> | <a href="/README.md">Português</a>

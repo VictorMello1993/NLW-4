@@ -72,6 +72,8 @@ npm install
 
 <img alt="Imagem instalação da Yarn" src="./api/YarnInstall.png"/>
 
+Se já possui yarn instalado, pule esta etapa.
+
 5 - Execute o servidor com o comando ```yarn dev```
 
 Pronto, a aplicação está pronta para ser utilizada!

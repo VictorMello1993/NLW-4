@@ -34,3 +34,5 @@ Dicas de execução de comandos para definir variáveis de ambiente: instalar cr
 
 
 Nodemailer: biblioteca de envio de e-mails do node. Deve ser feito em conjunto com SMTP da Ethereal
+
+Biblioteca para validações de API: yup valitation

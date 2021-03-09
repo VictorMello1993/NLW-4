@@ -48,7 +48,7 @@ de uma aplicação responsável pela realização da pesquisa de satisfação do
   <li>Jest (testes automatizados)</li>
   <li>Supertest (ferramenta de testes de integração)</li>
   <li>Nodemailer (biblioteca de envio de e-mails, utilizado em conjunto com SMTP da Ethereal)</li>
-  <li>Insomnia (ferramenta para documentar as requisições realizadas pela API, similar ao Postman)</li>
+  <li>Insomnia (ferramenta para documentar as requisições realizadas pela API). Postman também serve.</li>
   <li>Beekeeper Studio (ferramenta de gerenciamento de banco de dados)</li>
 </ul>
 
@@ -67,12 +67,13 @@ git clone https://github.com/VictorMello1993/NLW-4.git
 ```
 npm install
 ```
-4 - Execute o servidor
-```
-yarn dev
-```
+4 - Instale o Yarn com o comando ```npm i -g yarn``` ou através do site https://classic.yarnpkg.com/en/docs/install#windows-stable clicando no botão ```Download Installer```, conforme a imagem abaixo:
 
-5 - Abra Insomnia e realize requisições da API
+<img alt="Imagem instalação da Yarn" src="./api/YarnInstall.png"/>
+
+5 - Execute o servidor com o comando ```yarn dev```
+
+Pronto, a aplicação está pronta para ser utilizada!
 
 ---
 

@@ -32,7 +32,7 @@ de uma aplicação responsável pela realização da pesquisa de satisfação do
     <li>Notas promotores variam entre 9 e 10</li>
  </ul>
  
- Considerando a fórmula, isso demonstra que usuários que dão 7 ou 8 não estão fazendo parte da pesquisa, para evitar ruídos. Portanto, normalmente o cálculo leva em consideração ou com notas detratores ou com notas promotores, e o resultado final é dado em porcentagem.
+ Considerando a fórmula, isso demonstra que usuários que dão nota 7 ou 8 não estão fazendo parte da pesquisa, isso é para evitar ruídos. Portanto, normalmente o cálculo leva em consideração ou com notas detratores ou com notas promotores, e o resultado final é dado em porcentagem.
  
  ---
  

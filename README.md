@@ -25,5 +25,60 @@ de uma aplicação responsável pela realização da pesquisa de satisfação do
   
   <i>NPS = (nº de promotores - nº de detratores) / (nº de entrevistados) * 100</i>
   
-  Onde:
-  
+  As notas devem seguir o seguinte critério:
+  <ul>
+    <li>Notas detratores variam de 0 a 6</li>
+    <li>Notas passivas variam entre 7 e 8</li>
+    <li>Notas promotores variam entre 9 e 10</li>
+ </ul>
+ 
+ Considerando a fórmula, isso demonstra que usuários que dão 7 ou 8 não estão fazendo parte da pesquisa, para evitar ruídos. Portanto, normalmente o cálculo leva em consideração ou com notas detratores ou com notas promotores, e o resultado final é dada em porcentagem.
+ 
+ ---
+ 
+ <h2>:wrench: Recursos</h2>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>TypeScript</li>
+  <li>NodeJs</li>
+  <li>Express</li>
+  <li>Handlebars (Template Engine)</li>
+  <li>SQLite</li>  
+  <li>Jest (testes automatizados)</li>
+  <li>Supertest (ferramenta de testes de integração)</li>
+  <li>Nodemailer (biblioteca de envio de e-mails, utilizado em conjunto com SMTP da Ethereal)</li>
+  <li>Insomnia (ferramenta de gerenciamento de rotas da API, similar ao Postman)</li>
+  <li>Beekeeper Studio (ferramento de gerenciamento de banco de dados)</li>
+</ul>
+
+---
+
+<h2>:triangular_flag_on_post:Começando</h2>
+
+
+1 - Clone o repositório
+```
+git clone https://github.com/VictorMello1993/NLW-4.git
+```
+2 - Abra VS Code e acesse a pasta "api" como pasta raíz da aplicação
+
+3 - Abra o terminal e instale todas as dependências do projeto
+```
+npm install
+```
+4 - Execute o servidor
+```
+yarn dev
+```
+
+5 - Abra Insomnia e realize requisições da API
+
+---
+
+##  Melhorias a implementar
+- [ ] Criar um serviço de login do usuário com autenticação e autorização com JWT
+
+---
+## Versões do README
+<a href="/README-ENUS.md">Inglês</a> | <a href="/README.md">Português</a>

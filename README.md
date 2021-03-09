@@ -48,7 +48,7 @@ de uma aplicação responsável pela realização da pesquisa de satisfação do
   <li>Jest (testes automatizados)</li>
   <li>Supertest (ferramenta de testes de integração)</li>
   <li>Nodemailer (biblioteca de envio de e-mails, utilizado em conjunto com SMTP da Ethereal)</li>
-  <li>Insomnia (ferramenta de gerenciamento de rotas da API, similar ao Postman)</li>
+  <li>Insomnia (ferramenta para documentar as requisições realizadas pela API, similar ao Postman)</li>
   <li>Beekeeper Studio (ferramento de gerenciamento de banco de dados)</li>
 </ul>
 

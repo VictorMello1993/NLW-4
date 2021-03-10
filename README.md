@@ -113,6 +113,9 @@ Segue abaixo a imagem:
   <h3>Users</h3>
   1 -  Na pasta Users, criar a rota para a requisição GET com url ```_.baseURL/users```, que equivale à rota ```http://localhost:3333/users``` conforme configurado no passo 2 acima, e  clicar em ```Send``` para efetuar a requisição GET da API e listar todos os usuários cadastrados no sistema.
   
+  <img src="./api/Insomnia2UserGET.png" alt="Demonstração listagem de usuários"/>
+  
+  
   2 -  Criar a rota para a requisição POST com a mesma url conforme o passo anterior. Porém, POST indica que será cadastrado um novo usuário. Portanto, é preciso preencher os dados necessários para funcionar corretamente, com seguinte JSON:
   ```
     {
@@ -121,9 +124,10 @@ Segue abaixo a imagem:
     }
   ```
   
-  Segue a imagem abaixo de exemplo:
+  Em seguinda, clique em ```Send```. Segue a imagem abaixo de exemplo
   
-  <img src="./api/Insomnia2UserPOST.png" alt="Demonstração insomnia"/>
+  Perceba que toda vez que é cadastrado um novo usuário, é gerado um novo id, do tipo UUID, além de preencher automaticamente a data atual em que foi cadastrado.
+  <img src="./api/Insomnia2UserPOST.png" alt="Demonstração cadastro de usuário"/>
   
   
   

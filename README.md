@@ -111,7 +111,7 @@ Segue abaixo a imagem:
 4 - Criar e executar as requisições para cada ação da API:
 
   <h3>Users</h3>
-  1 -  Na pasta Users, criar a rota para a requisição GET com url ```localhost``` , que equivale à rota '', conforme configurado no passo 2 acima, e  clicar em '' para efetuar a requisição GET da API e listar todos os usuários cadastrados no sistema.
+  1 -  Na pasta Users, criar a rota para a requisição GET com url ```localhost```, que equivale à rota, conforme configurado no passo 2 acima, e  clicar em para efetuar a requisição GET da API e listar todos os usuários cadastrados no sistema.
   
   <img src="./api/Insomnia2UserGET.png" alt="Demonstração listagem de usuários"/>
   

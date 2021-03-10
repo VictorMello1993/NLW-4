@@ -83,7 +83,9 @@ Pronto, a aplicação está pronta para ser utilizada!
 
 <h2>:gear:Executando a API</h2>
 
-1 - Abra Insomnia e configure ambiente clicando em ```No Environment``` -> ```Manage Environments``` colocando o seguinte JSON:
+1 - Abra o servidor digitando o comando ```yarn dev```
+
+2 - Abra Insomnia e configure ambiente clicando em ```No Environment``` -> ```Manage Environments``` colocando o seguinte JSON:
 
 ```
 {
@@ -93,7 +95,7 @@ Pronto, a aplicação está pronta para ser utilizada!
 
 Em seguida, clique em ```Done```
 
-2 - Crie as pastas para organizar as requisições da seguinte forma:
+3 - Crie as pastas para organizar as requisições da seguinte forma:
 
 <ul>
   <li>NPS para requisição GET responsável pelo cálculo do NPS</li>
@@ -105,6 +107,29 @@ Em seguida, clique em ```Done```
 Segue abaixo a imagem:
 
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
+
+4 - Criar e executar as requisições para cada ação da API:
+
+  <h3>Users</h3>
+  1 -  Na pasta Users, criar a rota para a requisição GET com url ```_.baseURL/users```, que equivale à rota ```http://localhost:3333/users``` conforme configurado no passo 2 acima, e  clicar em ```Send``` para efetuar a requisição GET da API e listar todos os usuários cadastrados no sistema.
+  
+  <img src="./api/Insomnia2UserGET.png" alt="Demonstração listagem de usuários"/>
+  
+  
+  2 -  Criar a rota para a requisição POST com a mesma url conforme o passo anterior. Porém, POST indica que será cadastrado um novo usuário. Portanto, é preciso preencher os dados necessários para funcionar corretamente, com seguinte JSON:
+  ```
+    {
+      "name": "Preencher o nome aqui",
+      "email": "Preencher o e-mail aqui"
+    }
+  ```
+  
+  Em seguinda, clique em ```Send```. Segue a imagem abaixo de exemplo
+  
+  Perceba que toda vez que é cadastrado um novo usuário, é gerado um novo id, do tipo UUID, além de preencher automaticamente a data atual em que foi cadastrado.
+  <img src="./api/Insomnia2UserPOST.png" alt="Demonstração cadastro de usuário"/>
+  
+  
   
   
 

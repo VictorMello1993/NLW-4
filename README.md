@@ -108,31 +108,8 @@ Segue abaixo a imagem:
 
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
 
-4 - Criar e executar as requisições para cada ação da API:
-
-<h3>Users</h3>
-1 - Na pasta Users, criar a rota para a requisição GET com url ```teste``` , que equivale à rota, conforme configurado no passo 2 acima, e  clicar em para efetuar a requisição GET da API e listar todos os usuários cadastrados no sistema.
-
-<img src="./api/Insomnia2UserGET.png" alt="Demonstração listagem de usuários"/>
-
-2 -  Criar a rota para a requisição POST com a mesma url conforme o passo anterior. Porém, POST indica que será cadastrado um novo usuário. Portanto, é preciso preencher os dados necessários para funcionar corretamente, com seguinte JSON:
-  ```
-    {
-      "name": "Preencher o nome aqui",
-      "email": "Preencher o e-mail aqui"
-    }
-  ```
+4 - Criar e executar as requisições para cada ação da API, conforme o vídeo de demonstração abaixo:
   
-Em seguida, clique em ```Send```. Segue a imagem abaixo de exemplo
-
-Perceba que toda vez que é cadastrado um novo usuário, é gerado um novo id, do tipo UUID, além de preencher automaticamente a data atual em que foi cadastrado.
-<img src="./api/Insomnia2UserPOST.png" alt="Demonstração cadastro de usuário"/>
-
-<h3>Surveys</h3>
-Para executar a API de pesquisas (surveys), o procedimento é praticamente o mesmo conforme a seção de usuários, porém com a rota diferente. Desta vez, com a rota 
-
-<img src="./api/InsomniaSurveyGET.png" alt="Demonstração listagem de pesquisas"/>
-
 ---
 
 ##  Melhorias a implementar

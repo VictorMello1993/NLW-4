@@ -108,7 +108,11 @@ Segue abaixo a imagem:
 
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
 
-4 - Criar e executar as requisições para cada ação da API, conforme o vídeo de demonstração abaixo:
+4 - Criar e executar as requisições para cada ação da API, conforme o vídeo de demonstração abaixo:  
+<video width="320" height="240" controls>
+  <source src="./api/APIUsers.mp4" type="video/mp4">
+</video>
+
   
 ---
 

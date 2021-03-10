@@ -74,12 +74,39 @@ npm install
 
 Se já possui yarn instalado, pule esta etapa.
 
+<br/>
+
 5 - Execute o servidor com o comando ```yarn dev```
 
 Pronto, a aplicação está pronta para ser utilizada!
 
 
 <h2>:gear:Executando a API</h2>
+
+1 - Abra Insomnia e configure ambiente clicando em ```No Environment``` -> ```Manage Environments``` colocando o seguinte JSON:
+
+```
+{
+  "baseURL": "http://localhost:3333"
+}
+```
+
+Em seguida, clique em ```Done```
+
+2 - Crie as pastas para organizar as requisições da seguinte forma:
+
+<ul>
+  <li>NPS para requisição GET responsável pelo cálculo do NPS</li>
+  <li>SendMail para requisição POST responsável pelo envio de e-mail/li>
+  <li>Surveys para requisições GET e POST para consulta e cadastro de pesquisa, respectivamente</li>
+  <li>Users para requisições GET e POST para consulta e cadastro de usuários</li>
+</ul>
+
+Segue abaixo a imagem:
+
+<img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
+  
+  
 
 ---
 

@@ -129,7 +129,12 @@ Segue abaixo a imagem:
   Perceba que toda vez que é cadastrado um novo usuário, é gerado um novo id, do tipo UUID, além de preencher automaticamente a data atual em que foi cadastrado.
   <img src="./api/Insomnia2UserPOST.png" alt="Demonstração cadastro de usuário"/>
   
+  <h3>Surveys</h3>
+  Para executar a API de pesquisas (surveys), o procedimento é praticamente o mesmo conforme a seção de usuários, porém com a rota diferente. Desta vez, com a rota ```_.baseURL/surveys``` ou ```http://localhost:3333/surveys```
+ 
   
+  <img src="./api/InsomniaSurveyGET.png" alt="Demonstração listagem de pesquisas"/>
+  <i><span align="center">Requisição GET de surveys (pesquisas) </span></i>
   
   
 

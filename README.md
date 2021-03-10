@@ -111,7 +111,7 @@ Segue abaixo a imagem:
 4 - Criar e executar as requisições para cada ação da API:
 
 <h3>Users</h3>
-1 -  Na pasta Users, criar a rota para a requisição GET com url ```teste```, que equivale à rota, conforme configurado no passo 2 acima, e  clicar em para efetuar a requisição GET da API e listar todos os usuários cadastrados no sistema.
+1 -  Na pasta Users, criar a rota para a requisição GET com url ``` teste ``` , que equivale à rota, conforme configurado no passo 2 acima, e  clicar em para efetuar a requisição GET da API e listar todos os usuários cadastrados no sistema.
 
 <img src="./api/Insomnia2UserGET.png" alt="Demonstração listagem de usuários"/>
 
@@ -132,7 +132,6 @@ Perceba que toda vez que é cadastrado um novo usuário, é gerado um novo id, d
 Para executar a API de pesquisas (surveys), o procedimento é praticamente o mesmo conforme a seção de usuários, porém com a rota diferente. Desta vez, com a rota 
 
 <img src="./api/InsomniaSurveyGET.png" alt="Demonstração listagem de pesquisas"/>
-<i><span align="center">Requisição GET de surveys (pesquisas) </span></i>
 
 ---
 

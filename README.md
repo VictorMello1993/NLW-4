@@ -108,7 +108,7 @@ Segue abaixo a imagem:
 
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
 
-4 - Executar as requisições das seguintes rotas:
+4 - Executar as requisições nas seguintes rotas:
 
   4.1 - Users - ```http://localhost:3333/users``` - Requisições GET e POST. Sendo que, na requisição POST, preencher os dados de entrada no body com o seguinte JSON:
 

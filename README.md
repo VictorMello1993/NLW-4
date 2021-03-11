@@ -135,7 +135,24 @@ Segue abaixo a imagem:
 }
 ```
 
+A resposta da requisição será um link de redirecionamento para envio de e-mail da Ethereal, conforme as imagens abaixo:
+
+<img src="./api/SendMail.png" alt="Envio de e-mail"/>
+
+</br>
+
+<img src="./api/SendMail2.png" alt="Envio de e-mail"/>
+
+</br>
+
+<img src="./api/SurveyUser.png" alt="Resposta da pesquisa de satisfação"/>
+<p align="center"><i> Resposta da pesquisa de satisfação com a nota 10.</i></p>
+
+</br>
+
   4.4 - Cálculo de NPS: ```http://localhost:3333/nps/:survey_id``` - Requisição GET
+
+<img src="./api/CalculoNPS.png" alt="Cálculo do NPS"/> 
 
 ---
 

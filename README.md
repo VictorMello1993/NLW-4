@@ -113,9 +113,15 @@ Segue abaixo a imagem:
   <strong>4.1 - Users</strong>
   <img src="./api/APIUsers.gif" alt="API de usuários"/>  
     
-
-
-
+  <br/>
+  
+  <strong>4.2 - Surveys</strong>
+  <img src="./api/APISurveys.gif" alt="API de pesquisas"/>  
+  
+  <br/>
+  
+  <strong>4.3 - Envio de e-mail e cálculo do NPS</strong>
+  <img src="./api/SendMailAndCalculateNPS_1.gif" alt="API de envio de e-mails e cálculo do NPS"/>  
   
 ---
 

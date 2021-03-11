@@ -127,7 +127,7 @@ Segue abaixo a imagem:
 
 5 - Banco de dados
 
-Foi utilizada a Beekeeper Studio como ferramenta de gerenciamento de banco de dados, pois é mais simples e prático para realizar consultas em bancos SQLite, quando estiver testando a aplicação no ambiente de desenvolvimento:
+Foi utilizada a Beekeeper Studio como ferramenta de gerenciamento de banco de dados, pois é mais simples e prático para realizar consultas em bancos SQLite, enquanto estiver desenvolvendo e testando a aplicação no ambiente de desenvolvimento:
 
 <img src="./api/BancoDados.gif" alt="GIF demonstrativo de banco de dados"/>  
 

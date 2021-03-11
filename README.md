@@ -108,28 +108,9 @@ Segue abaixo a imagem:
 
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
 
-4 - Criar e executar as rotas para cada recurso da API, conforme os GIFs abaixo:
+4 - Executar as requisições das seguintes rotas:
 
-  <strong>4.1 - Users</strong>
-  <img src="./api/APIUsers.gif" alt="API de usuários"/>  
-    
-  <br/>
-  
-  <strong>4.2 - Surveys</strong>
-  <img src="./api/APISurveys.gif" alt="API de pesquisas"/>  
-  
-  <br/>
-  
-  <strong>4.3 - Envio de e-mail e cálculo do NPS</strong>
-  <img src="./api/SendMailAndCalculateNPS_1.gif" alt="API de envio de e-mails e cálculo do NPS"/>  
-  
 ---
-
-5 - Banco de dados
-
-Foi utilizada a Beekeeper Studio como ferramenta de gerenciamento de banco de dados, pois é mais simples e prático para realizar consultas em bancos SQLite, enquanto estiver desenvolvendo e testando a aplicação no ambiente de desenvolvimento:
-
-<img src="./api/BancoDados.gif" alt="GIF demonstrativo de banco de dados"/>  
 
 ##  Melhorias a implementar
 - [ ] Criar um serviço de login do usuário com autenticação e autorização com JWT (JSON Web Tokens)

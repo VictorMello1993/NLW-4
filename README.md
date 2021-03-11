@@ -125,6 +125,12 @@ Segue abaixo a imagem:
   
 ---
 
+5 - Banco de dados
+
+Foi utilizada a Beekeeper Studio como ferramenta de gerenciamento de banco de dados, pois é mais simples e prático para realizar consultas em bancos SQLite, quando estiver testando a aplicação no ambiente de desenvolvimento:
+
+<img src="./api/BancoDados.gif" alt="GIF demonstrativo de banco de dados"/>  
+
 ##  Melhorias a implementar
 - [ ] Criar um serviço de login do usuário com autenticação e autorização com JWT (JSON Web Tokens)
 

@@ -101,7 +101,7 @@ Em seguida, clique em ```Done```
   <li>NPS para requisição GET responsável pelo cálculo do NPS</li>
   <li>SendMail para requisição POST responsável pelo envio de e-mail</li>
   <li>Surveys para requisições GET e POST para consulta e cadastro de pesquisa, respectivamente</li>
-  <li>Users para requisições GET e POST para consulta e cadastro de usuários</li>
+  <li>Users para requisições GET e POST para consulta e cadastro de usuários, respectivamente</li>
 </ul>
 
 Segue abaixo a imagem:

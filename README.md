@@ -109,6 +109,32 @@ Segue abaixo a imagem:
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
 
 4 - Executar as requisições das seguintes rotas:
+  4.1 - Users - ```http://localhost:3333/users``` - Requisições GET e POST. Sendo que, na requisição POST, preencher os dados de entrada no body com o seguinte JSON:
+
+```
+{
+	"name": "Nome",
+	"email": "Preencher e-mail válido"
+}
+```
+  4.2 - Surveys - ```http://localhost:3333/surveys```  - Requisições GET e POST. Sendo que, na requisição POST, preencher os dados de entrada no body com o seguinte JSON:
+
+```
+{
+	"title": "Nome do título",
+	"description": "Preencher descrição"
+}
+```
+  4.3 - Envio de e-mail: ```http://localhost:3333/sendMail``` - Requisição POST, onde deverão ser preenchidos os seguintes dados:
+  
+```
+{
+	"email": "Preencher e-mail válido",
+	"survey_id": "Preencher o id do survey (pesquisa) válido"
+}
+```
+
+  4.4 - Cálculo de NPS: ```http://localhost:3333/nps/:survey_id``` - Requisição GET
 
 ---
 

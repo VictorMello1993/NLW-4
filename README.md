@@ -108,28 +108,36 @@ Segue abaixo a imagem:
 
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
 
-4 - Criar e executar as rotas para cada recurso da API, conforme os GIFs abaixo:
+4 - Executar as requisições nas seguintes rotas:
 
-  <strong>4.1 - Users</strong>
-  <img src="./api/APIUsers.gif" alt="API de usuários"/>  
-    
-  <br/>
+  4.1 - Users - ```http://localhost:3333/users``` - Requisições GET e POST. Sendo que, na requisição POST, preencher os dados de entrada no body com o seguinte JSON:
+
+```
+{
+	"name": "Nome",
+	"email": "Preencher e-mail válido"
+}
+```
+  4.2 - Surveys - ```http://localhost:3333/surveys```  - Requisições GET e POST. Sendo que, na requisição POST, preencher os dados de entrada no body com o seguinte JSON:
+
+```
+{
+	"title": "Nome do título",
+	"description": "Preencher descrição"
+}
+```
+  4.3 - Envio de e-mail: ```http://localhost:3333/sendMail``` - Requisição POST, onde deverão ser preenchidos os seguintes dados:
   
-  <strong>4.2 - Surveys</strong>
-  <img src="./api/APISurveys.gif" alt="API de pesquisas"/>  
-  
-  <br/>
-  
-  <strong>4.3 - Envio de e-mail e cálculo do NPS</strong>
-  <img src="./api/SendMailAndCalculateNPS_1.gif" alt="API de envio de e-mails e cálculo do NPS"/>  
-  
+```
+{
+	"email": "Preencher e-mail válido",
+	"survey_id": "Preencher o id do survey (pesquisa) válido"
+}
+```
+
+  4.4 - Cálculo de NPS: ```http://localhost:3333/nps/:survey_id``` - Requisição GET
+
 ---
-
-5 - Banco de dados
-
-Foi utilizada a Beekeeper Studio como ferramenta de gerenciamento de banco de dados, pois é mais simples e prático para realizar consultas em bancos SQLite, enquanto estiver desenvolvendo e testando a aplicação no ambiente de desenvolvimento:
-
-<img src="./api/BancoDados.gif" alt="GIF demonstrativo de banco de dados"/>  
 
 ##  Melhorias a implementar
 - [ ] Criar um serviço de login do usuário com autenticação e autorização com JWT (JSON Web Tokens)

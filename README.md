@@ -95,11 +95,11 @@ Pronto, a aplicação está pronta para ser utilizada!
 
 Em seguida, clique em ```Done```
 
-3 - Crie as pastas para organizar as requisições da seguinte forma:
+3 - Crie as pastas para organizar as rotas da seguinte forma:
 
 <ul>
   <li>NPS para requisição GET responsável pelo cálculo do NPS</li>
-  <li>SendMail para requisição POST responsável pelo envio de e-mail</li>
+  <li>SendMail para requisição POST responsável pelo envio de e-mail com a pesquisa</li>
   <li>Surveys para requisições GET e POST para consulta e cadastro de pesquisa, respectivamente</li>
   <li>Users para requisições GET e POST para consulta e cadastro de usuários, respectivamente</li>
 </ul>
@@ -108,7 +108,7 @@ Segue abaixo a imagem:
 
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
 
-4 - Criar e executar as requisições para cada ação da API, conforme os GIFs abaixo:
+4 - Criar e executar as rotas para cada recurso da API, conforme os GIFs abaixo:
 
   <strong>4.1 - Users</strong>
   <img src="./api/APIUsers.gif" alt="API de usuários"/>  

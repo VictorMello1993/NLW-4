@@ -16,7 +16,7 @@
   <a href="#earth_americas-visão-geral">Visão geral</a> •
   <a href="#wrench-recursos">Recursos</a> •
   <a href="#triangular_flag_on_postcomeçando">Começando</a> •  
-  <a href="#triangular_flag_on_postexecutando-a-api">Executando a API</a> •  
+  <a href="#gearexecutando-a-api">Executando a API</a> •  
   <a href="#melhorias-a-implementar">Melhorias a implementar</a> •  
 </p>
 
@@ -108,11 +108,20 @@ Segue abaixo a imagem:
 
 <img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
 
-4 - Criar e executar as requisições para cada ação da API, conforme o vídeo de demonstração abaixo:  
-<video width="320" height="240" controls>
-  <source src="./api/APIUsers.mp4" type="video/mp4">
-</video>
+4 - Criar e executar as requisições para cada ação da API, conforme os GIFs abaixo:
 
+  <strong>4.1 - Users</strong>
+  <img src="./api/APIUsers.gif" alt="API de usuários"/>  
+    
+  <br/>
+  
+  <strong>4.2 - Surveys</strong>
+  <img src="./api/APISurveys.gif" alt="API de pesquisas"/>  
+  
+  <br/>
+  
+  <strong>4.3 - Envio de e-mail e cálculo do NPS</strong>
+  <img src="./api/SendMailAndCalculateNPS_1.gif" alt="API de envio de e-mails e cálculo do NPS"/>  
   
 ---
 

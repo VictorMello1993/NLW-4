@@ -112,8 +112,8 @@ Follow the image below:
 
 ```
 {
-	"name": "Nome",
-	"email": "Preencher e-mail válido"
+	"name": "Name",
+	"email": "Fill a valid e-mail"
 }
 ```
 
@@ -121,8 +121,8 @@ Follow the image below:
   
 ```
 {
-	"title": "Nome do título",
-	"description": "Preencher descrição"
+	"title": "Title name",
+	"description": "Fill description"
 }
 
 ```
@@ -130,8 +130,8 @@ Follow the image below:
   
 ```
 {
-	"email": "Preencher e-mail válido",
-	"survey_id": "Preencher o id do survey (pesquisa) válido"
+	"email": "Fill a valid e-mail",
+	"survey_id": "Fill a valid survey id"
 }
 ```
 

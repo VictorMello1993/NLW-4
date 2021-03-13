@@ -80,7 +80,7 @@ If you already have yarn installed, skip this step
 
 It's done, your app is ready to be used!
 
-<h2>:gear:Running</h2>
+<h2>:gear:Running API</h2>
 
 1 - Open the server typing ```yarn dev``` command
 

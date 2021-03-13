@@ -15,7 +15,7 @@
 <p align="center">
   <a href="#earth_americas-overview">Overview</a> •
   <a href="#wrench-features">Features</a> •
-  <a href="#triangular_flag_on_postcomeçando">Getting started</a> •  
+  <a href="#triangular_flag_on_postgetting-started">Getting started</a> •  
   <a href="#gearexecutando-a-api">Running API</a> •  
   <a href="#melhorias-a-implementar">Improvements do build</a> •  
 </p>

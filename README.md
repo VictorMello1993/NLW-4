@@ -76,14 +76,9 @@ Se já possui yarn instalado, pule esta etapa.
 
 <br/>
 
-5 - Execute o servidor com o comando ```yarn dev```
-
-Pronto, a aplicação está pronta para ser utilizada!
-
-
 <h2>:gear:Executando a API</h2>
 
-1 - Abra o servidor digitando o comando 
+1 - Abra o terminal e execute o servidor digitando o comando 
 ```
 yarn dev
 ```

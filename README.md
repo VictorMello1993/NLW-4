@@ -92,7 +92,7 @@ yarn dev
 
 2 - Clique no botão abaixo para importar o workspace sugerido. Assim, poderá acessar todas as rotas da aplicação
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW06&uri=https%3A%2F%2Fgist.githubusercontent.com%2FVictorMello1993%2Feeda0feb76128d29fee6fa0a8ffec088%2Fraw%2F0a9a2292bdc10f6028ebdd4f6a88d64d191b1420%2Fbr.jpg)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW04&uri=https%3A%2F%2Fgist.githubusercontent.com%2FVictorMello1993%2Feeda0feb76128d29fee6fa0a8ffec088%2Fraw%2F0a9a2292bdc10f6028ebdd4f6a88d64d191b1420%2Fbr.jpg)
 
 ---
 

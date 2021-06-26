@@ -65,96 +65,40 @@ git clone https://github.com/VictorMello1993/NLW-4.git
 2 - Open VS Code and access "api" folder as root
 
 3 - Open the terminal and install all of dependencies available to this project
+
+#### NPM
 ```
 npm install
 ```
-4 - Install Yarn with ```npm i -g yarn``` command or through https://classic.yarnpkg.com/en/docs/install#windows-stable clicking ```Download Installer``` button, as the images below:
 
-<img alt="How to install Yarn" src="./api/YarnInstall.png"/>
-
-If you already have yarn installed, skip this step
-
-<br/>
-
-5 - Run the server with ```yarn dev``` command
-
-It's done, your app is ready to be used!
+#### Yarn
+```
+yarn
+```
 
 <h2>:gear:Running API</h2>
-
 1 - Open the server typing ```yarn dev``` command
 
-2 - Open Insomnia and configure environment in ```No Environment``` -> ```Manage Environments``` typing the following JSON:
+#### NPM
 ```
-{
-  "baseURL": "http://localhost:3333"
-}
+npm run dev
 ```
 
-Then, click  ```Done```
-
-3 - Create the folders to organize the routes by the following way: 
-
-<ul>
-  <li>NPS for GET requests that performs the NPS calculus</li>  
-  <li>SendMail for POST requests that performs the sending mail with survey</li>
-  <li>Surveys for GET and POST requests to query and registering surveys, respectively</li>
-  <li>Users for GET and POST requests to query and registering users, respectively</li>
-</ul>
-
-Follow the image below:
-
-<img src="./api/Insomnia.png" alt="Insomnia demonstration"/>
-
-4 - Run the requests on the following routes:
-
-  4.1 - Users - ```http://localhost:3333/users``` - GET and POST requests. Then, on POST request, fill the input data on body with following JSON:
-
+#### Yarn
 ```
-{
-	"name": "Name",
-	"email": "Fill a valid e-mail"
-}
+yarn dev
 ```
 
-  4.2 - Surveys - ```http://localhost:3333/surveys```  - GET and POST requests. Then, on POST request, fill the input data on body with following JSON:
-  
-```
-{
-	"title": "Title name",
-	"description": "Fill description"
-}
+2 - Click on the button below  to import the suggested workspace. It will be possible to access all of the application routes.
 
-```
-  4.3 - Sending mail: ```http://localhost:3333/sendMail``` - POST request, where the following data must be filled:
-  
-```
-{
-	"email": "Fill a valid e-mail",
-	"survey_id": "Fill a valid survey id"
-}
-```
-
-The response for the request will be a redirect link to sending a mail from Ethereal, as the images below:
-
-<img src="./api/SendMail.png" alt="Sending an e-mail"/>
-
-</br>
-
-<img src="./api/SendMail2.png" alt="Sending an e-mail"/>
-
-</br>
-
-<img src="./api/SurveyUser.png" alt="Answer of satisfaction survey"/>
-<p align="center"><i> Satisfaction survey answered with 10</i></p>
-
-</br>
-
-  4.4 - NPS calculus: ```http://localhost:3333/nps/:survey_id``` - GET request
-
-<img src="./api/CalculoNPS.png" alt="NPS calculus"/> 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW04&uri=https%3A%2F%2Fgist.githubusercontent.com%2FVictorMello1993%2F5c7c6ef86b2bc670930ffec4b62c782f%2Fraw%2F26e11ce92ae612bd9d614cb7c2a7abf22c822524%2Fnlw04.json)
 
 ---
+
+<h2>:oil_drum:Database</h2>
+To see all of the tables created by the application, download <a href="https://www.beekeeperstudio.io/">Beekeeper Studio</a>, a database management software. In this project, we use SQLite, so to establish the database connection, just look for the <strong>database.sqlite</strong> file. Make sure the connection has been successfully established and then, click the <strong>Connect</strong> button. It's done, the database is ready to query it.
+
+![Screenshot_1](https://user-images.githubusercontent.com/35710766/123499845-e7fe7a80-d60f-11eb-8993-9d68a9432120.png)
 
 ##  Improvements to build
 - [ ] Implement an user login service with authentication and authorization with JWT (JSON Web Tokens)

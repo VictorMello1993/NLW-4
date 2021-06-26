@@ -66,20 +66,26 @@ git clone https://github.com/VictorMello1993/NLW-4.git
 2 - Abra VS Code e acesse a pasta "api" como pasta raíz da aplicação
 
 3 - Abra o terminal e instale todas as dependências do projeto
+
+#### NPM
 ```
 npm install
 ```
-4 - Instale o Yarn com o comando ```npm i -g yarn``` ou através do site https://classic.yarnpkg.com/en/docs/install#windows-stable clicando no botão ```Download Installer```, conforme a imagem abaixo:
 
-<img alt="Imagem instalação da Yarn" src="./api/YarnInstall.png"/>
-
-Se já possui yarn instalado, pule esta etapa.
-
-<br/>
+#### Yarn
+```
+yarn
+```
 
 <h2>:gear:Executando a API</h2>
-
 1 - Abra o terminal e execute o servidor digitando o comando 
+
+#### NPM
+```
+npm run dev
+```
+
+#### Yarn
 ```
 yarn dev
 ```

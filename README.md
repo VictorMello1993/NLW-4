@@ -17,7 +17,8 @@
   <a href="#wrench-recursos">Recursos</a> •
   <a href="#triangular_flag_on_postcomeçando">Começando</a> •  
   <a href="#gearexecutando-a-api">Executando a API</a> •  
-  <a href="#melhorias-a-implementar">Melhorias a implementar</a> •  
+  <a href="#oil_drumbanco-de-dados">Banco de dados</a> •  
+  <a href="#melhorias-a-implementar">Melhorias a implementar</a> 
 </p>
 
 <h2>:earth_americas: Visão geral</h2>

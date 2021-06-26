@@ -78,7 +78,7 @@ yarn
 ```
 
 <h2>:gear:Running API</h2>
-1 - Open the server typing ```yarn dev``` command
+1 - Open the terminal and run the server typing the command suggested below
 
 #### NPM
 ```

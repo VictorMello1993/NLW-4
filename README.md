@@ -83,7 +83,10 @@ Pronto, a aplicação está pronta para ser utilizada!
 
 <h2>:gear:Executando a API</h2>
 
-1 - Abra o servidor digitando o comando ```yarn dev```
+1 - Abra o servidor digitando o comando 
+```
+yarn dev
+```
 
 2 - Clique no botão abaixo para importar o workspace sugerido. Assim, poderá acessar todas as rotas da aplicação
 

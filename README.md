@@ -85,74 +85,16 @@ Pronto, a aplicação está pronta para ser utilizada!
 
 1 - Abra o servidor digitando o comando ```yarn dev```
 
-2 - Abra Insomnia e configure ambiente clicando em ```No Environment``` -> ```Manage Environments``` colocando o seguinte JSON:
+2 - Clique no botão abaixo para importar o workspace sugerido. Assim, poderá acessar todas as rotas da aplicação
 
-```
-{
-  "baseURL": "http://localhost:3333"
-}
-```
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW06&uri=https%3A%2F%2Fgist.githubusercontent.com%2FVictorMello1993%2Feeda0feb76128d29fee6fa0a8ffec088%2Fraw%2F0a9a2292bdc10f6028ebdd4f6a88d64d191b1420%2Fbr.jpg)
 
-Em seguida, clique em ```Done```
+---
 
-3 - Crie as pastas para organizar as rotas da seguinte forma:
+<h2>:oil_drum:Banco de dados</h2>
+Para visualizar todas as tabelas geradas pela aplicação, baixe o <a href="https://www.beekeeperstudio.io/">Beekeeper Studio</a>, software de gerenciamento de banco de dados. Neste projeto utilizamos SQLite, então para abrir a conexão com o banco de dados, basta procurar pelo arquivo <strong>database.sqlite</strong>. Teste para verificar se a conexão ocorrerá com êxito, e então, clique em <strong>Connect</strong>. Pronto, a conexão já está aberta, e poderá realizar as consultas.
 
-<ul>
-  <li>NPS para requisição GET responsável pelo cálculo do NPS</li>
-  <li>SendMail para requisição POST responsável pelo envio de e-mail com a pesquisa</li>
-  <li>Surveys para requisições GET e POST para consulta e cadastro de pesquisa, respectivamente</li>
-  <li>Users para requisições GET e POST para consulta e cadastro de usuários, respectivamente</li>
-</ul>
-
-Segue abaixo a imagem:
-
-<img src="./api/Insomnia.png" alt="Demonstração insomnia"/>
-
-4 - Executar as requisições nas seguintes rotas:
-
-  4.1 - Users - ```http://localhost:3333/users``` - Requisições GET e POST. Sendo que, na requisição POST, preencher os dados de entrada no body com o seguinte JSON:
-
-```
-{
-	"name": "Nome",
-	"email": "Preencher e-mail válido"
-}
-```
-  4.2 - Surveys - ```http://localhost:3333/surveys```  - Requisições GET e POST. Sendo que, na requisição POST, preencher os dados de entrada no body com o seguinte JSON:
-
-```
-{
-	"title": "Nome do título",
-	"description": "Preencher descrição"
-}
-```
-  4.3 - Envio de e-mail: ```http://localhost:3333/sendMail``` - Requisição POST, onde deverão ser preenchidos os seguintes dados:
-  
-```
-{
-	"email": "Preencher e-mail válido",
-	"survey_id": "Preencher o id do survey (pesquisa) válido"
-}
-```
-
-A resposta da requisição será um link de redirecionamento para envio de e-mail da Ethereal, conforme as imagens abaixo:
-
-<img src="./api/SendMail.png" alt="Envio de e-mail"/>
-
-</br>
-
-<img src="./api/SendMail2.png" alt="Envio de e-mail"/>
-
-</br>
-
-<img src="./api/SurveyUser.png" alt="Resposta da pesquisa de satisfação"/>
-<p align="center"><i> Resposta da pesquisa de satisfação com a nota 10.</i></p>
-
-</br>
-
-  4.4 - Cálculo de NPS: ```http://localhost:3333/nps/:survey_id``` - Requisição GET
-
-<img src="./api/CalculoNPS.png" alt="Cálculo do NPS"/> 
+![Screenshot_1](https://user-images.githubusercontent.com/35710766/123499845-e7fe7a80-d60f-11eb-8993-9d68a9432120.png)
 
 ---
 
